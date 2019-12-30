@@ -8,6 +8,13 @@
     border: 1px solid black;
     margin: 0 7.5px 15px;
     overflow: hidden;
+
+    @media screen and (max-width: 414px) {
+        height: 200px;
+        min-width: 100%;
+
+    }
+
     
     &:hover {
         cursor: pointer;

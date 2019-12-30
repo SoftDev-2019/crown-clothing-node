@@ -17,6 +17,11 @@ export const CollectionItemContainer = styled.div`
       display: flex;
     }
   }
+
+  @media screen and (max-width: 414px) {
+      width: 45vw;
+     
+  }
 `;
 
 export const AddButton = styled(CustomButton)`
@@ -25,6 +30,13 @@ export const AddButton = styled(CustomButton)`
   position: absolute;
   top: 255px;
   display: none;
+  
+  @media screen and (max-width: 414px) {
+    opacity: 0.9;
+    display: block;
+    min-width: unset;
+    padding: 0 10px;
+  }
 `;
 
 export const BackgroundImage = styled.div`
